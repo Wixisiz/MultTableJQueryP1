@@ -1,0 +1,54 @@
+<!--
+File: index.html
+GUI Assignment: HW 4 Using the jQuery Plugin/UI with Your Dynamic Table
+Senny Lu, UMass Lowell Computer Science, senny_lu@student.uml.edu 
+Copyright (c) 2025 by Senny. All rights reserved.  May be freely copied or 
+excerpted for educational purposes with credit to the author. 
+updated by SL on June 22nd, 2025 at 11:30 PM
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="css/tablestyle.css" rel="stylesheet">
+    <title>Dynamic Multiplication Table</title>
+</head>
+<body>
+    <!--Title Heading-->
+    <h1>Dynamic Multiplication Table</h1>
+
+    <!--Form element with ids and names for the inputs for ease of access in javascript file-->
+    <form id="info">
+        <label for="minimumColumn">Minimum Column Value (-50 to 50):</label><br>
+        <input type="text" id="minimumColumn" name="minimumColumn" value="0"><br><br>
+
+        <label for="maximumColumn">Maximum Column Value (-50 to 50):</label><br>
+        <input type="text" id="maximumColumn" name="maximumColumn" value="5"><br><br>
+
+        <label for="minimumRow">Minimum Row Value (-50 to 50):</label><br>
+        <input type="text" id="minimumRow" name="minimumRow" value="0"><br><br>
+
+        <label for="maximumRow">Maximum Row Value (-50 to 50):</label><br>
+        <input type="text" id="maximumRow" name="maximumRow" value="5"><br><br>
+
+        <label for="Generate" id="Error"></label><br><br>
+        <input type="submit" id="Generate" name="Generate" value="Generate">
+        <input type="submit" id="Clear" value="Clear">
+    </form>
+
+    <!--Div tableContainer is used for javascript to generate the table by inserting table into div
+        and used to clear table by clearing div.-->
+    <div id="tableContainer"></div>
+
+    <!-- jQuery Uncompressed -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- jQuery validation -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+
+    <!-- Custom JavaScript-->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
