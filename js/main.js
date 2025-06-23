@@ -1,10 +1,10 @@
 /*
 File: main.js
-GUI Assignment: HW 3 Creating an Interactive Dynamic Table
+GUI Assignment: HW 4 Using the jQuery Plugin/UI with Your Dynamic Table
 Senny Lu, UMass Lowell Computer Science, senny_lu@student.uml.edu 
 Copyright (c) 2025 by Senny. All rights reserved.  May be freely copied or 
 excerpted for educational purposes with credit to the author. 
-updated by SL on June 16th, 2025 at 2:30 PM
+updated by SL on June 22nd, 2025 at 11:30 PM
 */
 
 // Event Listener to find out what button was pressed
